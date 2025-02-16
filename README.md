@@ -1,4 +1,4 @@
-## How to deploy and use using docker
+# Deployment and usage via Docker
 
 #### Clone Repostiory
 ```bash
@@ -19,3 +19,8 @@ docker run -p 5000:5000 en-fr-translator-app
 
 ### Use the application
 #### Navigate to your browser and enter 127.0.0.1:5000 in the URL bar
+
+# Use via Google Collab and Gradio 
+### You can either download the note book and run it or open and run via Google Collab
+
+
