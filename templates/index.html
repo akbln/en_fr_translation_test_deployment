@@ -9,16 +9,18 @@
 <body>
     <div id="body-container">
         <h1 id="title">Sentence Translation by Ahmad Kabalan</h1>
-        <div>
-            <form id="translate_form">
-                <label for="english_sentence">English sentence:</label>
-                <textarea id="english_sentence" name="english_sentence" placeholder="Type your sentence here..." required></textarea>
-                <button id="submit-button" type="submit">Translate</button>
-            </form>
-        </div>
-        <div id="french_sentence_container">
-            <h3>French Translation</h3>
-            <p id="french_sentence"></p>
+        <div id="translation-wrapper">
+            <div>
+                <form id="translate_form">
+                    <h4>English sentence</h4>
+                    <textarea id="english_sentence" required></textarea>
+                    <button id="submit-button" type="submit">Translate</button>
+                </form>
+            </div>
+            <div id="french_sentence_container">
+                <h4>French Translation</h4>
+                <p id="french_sentence"></p>
+            </div>
         </div>
     </div>
     <script src="/static/index.js"></script>
