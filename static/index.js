@@ -3,7 +3,7 @@ document.getElementById("translate_form").addEventListener("submit", async funct
     const sentence = document.getElementById("english_sentence").value;
 
     try {
-        const response = await fetch("http://127.0.0.1:5000/translate", {
+        const response = await fetch(`${window.location.origin}/translate`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
